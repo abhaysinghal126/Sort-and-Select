@@ -41,7 +41,6 @@ public class BubbleSort {
         for (int x : array) System.out.print(x + " ");
         System.out.println();
 
-        System.out.println("Comparisons: " + comparisons);
     }
 
     public static long[] measurePerformance(int[] array) {

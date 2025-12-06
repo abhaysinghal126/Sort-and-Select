@@ -28,13 +28,13 @@ public class InsertionSort {
 
         for (int i = 0; i < num; i++) array[i] = random.nextInt(100);
 
-        System.out.println("Before:");
+        System.out.println("Data set before insertionsort:");
         for (int x : array) System.out.print(x + " ");
         System.out.println();
 
         sort(array);
 
-        System.out.println("After:");
+        System.out.println("Data set after insertionsort:");
         for (int x : array) System.out.print(x + " ");
         System.out.println();
 
